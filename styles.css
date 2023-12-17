@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, Helvetica, sans-serif; 
+    background: linear-gradient(white, orange);   
+    text-align: center;
+    justify-content: center;
+    margin: 0px 0px 2000px 0px;
+}
+
+#herobutton {
+    justify-content: center;
+}
+
+#herobutton :hover {
+    background-color: orange;
+    color: gray;
+}
+
+#heroimage {
+    margin: 50px 0;
+    width: 700px;
+}
+
+ul {
+    font-size: 14px;
+    font-weight: 700;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(245, 160, 1);
+  }
+
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: #111;
+  }
+
+h1 {
+    font-size: 80px;
+    font-weight: 500;
+    margin: 40px 0px 20px 0px;
+}
+
+h4 {
+    font-size: 16px;
+    font-weight: 100;
+}
+
+button {
+    border: none;
+    border-radius: 10px;
+    padding: 6px 20px;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    background-color: lightcoral;
+    
+}
