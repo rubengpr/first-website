@@ -6,13 +6,14 @@ body {
     margin: 0px 0px 2000px 0px;
 }
 
-#herobutton {
-    justify-content: center;
+#hero {
+  text-align: center;
+  justify-content: center;
+  margin: 0px 0px 50px 0px;
 }
 
-#herobutton :hover {
-    background-color: orange;
-    color: gray;
+#herobutton {
+    justify-content: center;
 }
 
 #heroimage {
@@ -64,6 +65,44 @@ button {
     font-weight: bold;
     font-size: 16px;
     color: white;
-    background-color: lightcoral;
+    background-color: orange;
     
+}
+
+#herobutton :hover {
+  background-color: lightcoral;
+  color: white;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 50px;
+  background-color: none; /* Adjust the background color as needed */
+}
+
+.feature {
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Simple shadow for depth */
+}
+
+.feature h3 {
+  color: #333;
+  margin-top: 0;
+}
+
+.feature p {
+  color: #666;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.feature img {
+  width: 100%; /* Responsive images */
+  height: auto;
+  border-radius: 5px;
+  margin-top: 15px;
 }
