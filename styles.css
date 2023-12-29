@@ -70,8 +70,12 @@ button {
 }
 
 #herobutton :hover {
-  background-color: lightcoral;
+  background-color: #f08080;
   color: white;
+}
+
+#featurestitle{
+  margin-top: 100px;
 }
 
 .features {
@@ -101,7 +105,7 @@ button {
 }
 
 .feature img {
-  width: 100%; /* Responsive images */
+  width: 200px; /* Responsive images */
   height: auto;
   border-radius: 5px;
   margin-top: 15px;
