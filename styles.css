@@ -3,7 +3,6 @@ body {
     background: linear-gradient(white, orange);   
     text-align: center;
     justify-content: center;
-    margin: 0px 0px 2000px 0px;
 }
 
 #hero {
@@ -68,7 +67,7 @@ h1 {
 h2 {
   font-size: 40px;
   font-weight: 600;
-  color: rgb(40, 40, 40);
+  color: #ef9898;
 }
 
 h4 {
@@ -86,6 +85,11 @@ button {
     background-color: orange;
     cursor: pointer;
     
+}
+
+button:hover {
+  background-color: #f08080;
+  color: white;
 }
 
 #herobutton :hover {
@@ -157,4 +161,71 @@ button {
   width: 100%;
   height: auto;
   border-radius: 10px;
+}
+
+#feature1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 150px 80px;
+}
+
+
+.f1img img {
+  width: 500px;
+  height: auto;
+}
+
+.f1text {
+  text-align: start;
+  width: 500px;
+}
+
+.f1text h2 {
+  margin-bottom: 50px;
+}
+
+.f1text h4 {
+  font-size: 15px;
+}
+
+#feature2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 150px 80px;
+}
+
+.f2img img {
+  width: 500px;
+  height: auto;
+}
+
+.f2text {
+  text-align: start;
+  width: 500px;
+}
+
+.f2text h2 {
+  margin-bottom: 50px;
+}
+
+.f2text h4 {
+  font-size: 15px;
+}
+
+#footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 200px;
+}
+
+.footerinfo {
+  width: 300px;
+  height: auto;
+  padding-top: 10px;
+  margin-left: 80px;
+}
+
+.footersocialmedia img {
+  width: 30px;
+  padding-left: 5px;
 }
