@@ -49,7 +49,7 @@ body {
   color: #676767;
 }
 
-.navbar {
+nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -131,7 +131,7 @@ button:hover {
   margin-top: 100px;
 }
 
-.features {
+.featuresdiv {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
@@ -276,7 +276,7 @@ footer {
   color: #f4f3f3;
 }
 
-.h4footer {
+.pfooter {
   color: #f4f3f3;
   margin-bottom: 60px;
 }
