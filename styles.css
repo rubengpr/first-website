@@ -426,3 +426,7 @@ footer {
   background-color: orange;
   padding: 12px 25px;
 }
+
+.contactform {
+  display: block;
+}
