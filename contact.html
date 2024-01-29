@@ -43,25 +43,31 @@
             </div>
         </section>
 
-        <section>
+        <section id="contactform">
             <h2>Or fill our form</h2>
             <form method="post" action="/">
-                <fieldset class="contactform">
-                    <legend>Personal information</legend>
+                <div class="input-box">
+                        <input type="text"  name="firstname" placeholder="Name" required>
+                </div>
 
-                    <label>Name:</label>
-                    <input type="text" name="firstname" placeholder="John" required>
+                <div class="input-box">
+                    <input type="text"  name="surname" placeholder="Surname" required>
+                </div>
 
-                    <label>Surname:</label>
-                    <input type="text" name="surname" placeholder="Doe" required>
+                <div class="input-box">
+                    <input type="email"  name="email" placeholder="Email" required>
+                </div>
 
-                    <label>Email:</label>
-                    <input type="email" name="email" placeholder="johndoe@mail.com" required>
+                <div class="input-box">
+                    <input type="tel"  name="phone" placeholder="Phone" pattern="[0-9] {9}">
+                </div>
 
-                    <label>Phone:</label>
-                    <input type="tel" name="phone" placeholder="+1 (887) 445-5739" pattern="[0-9] {9}">
+                <div class="input-box">
+                    <textarea name="textarea" id="textarea" cols="56" rows="10" placeholder="Write something here"></textarea>
+                </div>
 
-                </fieldset>
+                    <button type="submit">Submit</button>
+
             </form>
         </section>
 

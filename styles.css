@@ -427,6 +427,21 @@ footer {
   padding: 12px 25px;
 }
 
-.contactform {
-  display: block;
+.input-box input {
+  border-radius: 3px;
+  border: 1px solid gray;
+  padding: 5px;
+  margin-bottom: 10px;
+  width: 400px;
+}
+
+textarea {
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 3px;
+  border: 1px solid gray;
+  margin-bottom: 5px;
+}
+
+#contactform {
+  margin-top: 150px;
 }
